@@ -1,0 +1,15 @@
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\Views\MainView.g.cs
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\App.g.cs
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\WpfApp8_MarkupCompile.cache
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\WpfApp8_MarkupCompile.lref
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\WpfApp8.csprojAssemblyReference.cache
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\bin\Debug\WpfApp8.exe.config
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\bin\Debug\WpfApp8.exe
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\bin\Debug\WpfApp8.pdb
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\Views\MainView.baml
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\WpfApp8.g.resources
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\WpfApp8.Properties.Resources.resources
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\WpfApp8.csproj.GenerateResource.cache
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\WpfApp8.csproj.CoreCompileInputs.cache
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\WpfApp8.exe
+C:\Users\kkamada\source\repos\WpfApp7\WpfApp8\obj\Debug\WpfApp8.pdb
