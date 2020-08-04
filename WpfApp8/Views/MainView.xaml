@@ -18,8 +18,58 @@
 
         <TextBlock Grid.Row="0" Grid.Column="0" Text="標準のListBox" />
         <TextBlock Grid.Row="0" Grid.Column="1" Text="カスタマイズしたListBox" />
-
+        
+        
         <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding People}" />
-        <ListBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding People}" />
+        <ListBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding People}" >
+            <ListBox.Template>
+                <ControlTemplate TargetType="{x:Type ListBox}" >
+                    <Border>
+                        <ItemsPresenter />
+                    </Border>
+                </ControlTemplate>
+            </ListBox.Template>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <MultiBinding StringFormat="氏名:{0} ({1})">
+                                    <Binding Path="FullName" />
+                                    <Binding Path="Age" />
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                        <TextBlock Text="{Binding IsAuthenticated}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ContentControl}" >
+                                <Border Background="{TemplateBinding Background}" Margin="1">
+                                    <ContentPresenter />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="LightGray" />
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="Plum" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
     </Grid>
 </Window>
