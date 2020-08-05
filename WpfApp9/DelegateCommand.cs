@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace WpfApp8
+namespace WpfApp9
 {
     internal class DelegateCommand : ICommand
     {

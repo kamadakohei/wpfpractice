@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace WpfApp8
+namespace WpfApp9
 {
     internal abstract class NotificationObject : INotifyPropertyChanged
     {
