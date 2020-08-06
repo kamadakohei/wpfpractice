@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp8", "WpfApp8\WpfApp8.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp9", "WpfApp9\WpfApp9.csproj", "{563806D2-FFA1-4BFD-8CA1-2A95E1110D6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp10", "WpfApp10\WpfApp10.csproj", "{3352635A-6575-4315-8BE8-490DFD6AB0D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{563806D2-FFA1-4BFD-8CA1-2A95E1110D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563806D2-FFA1-4BFD-8CA1-2A95E1110D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{563806D2-FFA1-4BFD-8CA1-2A95E1110D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3352635A-6575-4315-8BE8-490DFD6AB0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3352635A-6575-4315-8BE8-490DFD6AB0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3352635A-6575-4315-8BE8-490DFD6AB0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3352635A-6575-4315-8BE8-490DFD6AB0D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
