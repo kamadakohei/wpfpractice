@@ -22,7 +22,7 @@ namespace WpfApp10.ViewModels
 
         private DelegateCommand _addCommand;
         
-
+        //追加
         public DelegateCommand AddCommand
         {
             get
